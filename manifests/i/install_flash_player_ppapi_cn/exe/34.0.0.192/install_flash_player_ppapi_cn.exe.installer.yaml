@@ -1,0 +1,29 @@
+# Created with YamlCreate.ps1 v2.0.4 $debug=NVS2.5-1-22000-282
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+
+PackageIdentifier: install_flash_player_ppapi_cn.exe
+PackageVersion: 34.0.0.192
+InstallerLocale: en-CA
+MinimumOSVersion: 10.0.0.0
+InstallerType: exe
+Scope: machine
+InstallModes:
+- interactive
+InstallerSwitches:
+  Silent: /s
+  SilentWithProgress: /s
+  Custom: /norestart
+UpgradeBehavior: install
+Commands:
+- flash
+Protocols:
+- https://github.com/we0999/5.gitck/raw/303b04f0a033630fe226a13a9854e44d5db3a503/install_flash_player_ppapi_cn.exe
+FileExtensions:
+- url
+Installers:
+- Architecture: x64
+  InstallerUrl: https://raw.githubusercontent.com/we0999/5.gitCK/303b04f0a033630fe226a13a9854e44d5db3a503/install_flash_player_ppapi_cn.exe?token=GHSAT0AAAAAABQGC2WKKTO42E2AN4IQJAKCYPALKDA
+  InstallerSha256: E0DFCA9C69D478B6B0178CB1D15AB2D14C123E70C1C791F6BF4D8A78C1A6ED4D
+  ProductCode: '{463B0974-B1E1-401E-8F59-B0F9F81258E4}'
+ManifestType: installer
+ManifestVersion: 1.1.0
